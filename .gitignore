@@ -1,3 +1,8 @@
+example_*.json
+nodejs_solution/node_modules
+.vscode
+.env
+.envrc
 # Logs
 logs
 *.log

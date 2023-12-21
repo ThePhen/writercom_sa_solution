@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_solution",
+  "version": "1.0.0",
+  "description": "A solution for Writer.com's SA job application challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePhen/writercom_sa_solution.git"
+  },
+  "author": "Stephen Henderson",
+  "bugs": {
+    "url": "https://github.com/ThePhen/writercom_sa_solution/issues"
+  },
+  "homepage": "https://github.com/ThePhen/writercom_sa_solution#readme",
+  "dependencies": {
+    "node-html-parser": "^6.1.11"
+  }
+}
