@@ -1,31 +1,5 @@
 #!/usr/bin/env zsh
 
-
-# xcurl --request POST \
-#      --url https://enterprise-api.writer.com/cowrite/organization/645641/team/652755/generate \
-#      --header "Authorization: Bearer ${WRITER_API_TOKEN}" \
-#      --header 'accept: application/json' \
-#      --header 'content-type: application/json' \
-#      --data '
-# {
-#      "inputs": [
-#           {
-#                "value": [
-#                     "e.g., Barnum Walnut Dining Table For 6"
-#                ],
-#                "name": "Product name"
-#           },
-#           {
-#                "value": [
-#                     "e.g.,  Solid walnut Sustainably sourced  Easy-to-assemble, tool-free "
-#                ],
-#                "name": "Product features"
-#           }
-#      ],
-#      "templateId": "c019dd70-2fe9-4df6-b5a5-1a51cad21724"
-# }
-# '
-
 curl -o example_blog_titles.json --request POST \
      --url https://enterprise-api.writer.com/cowrite/organization/645641/team/652755/generate \
      --header "Authorization: Bearer ${WRITER_API_TOKEN}" \
