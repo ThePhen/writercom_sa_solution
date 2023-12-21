@@ -1,6 +1,6 @@
 # Writer.com Solutions Architect Challenge Solution
 
-**The code for the solutions can be found at: https://github.com/ThePhen/writercom_sa_solution/tree/main**
+**The code for the solutions can be found at: https://github.com/ThePhen/writercom_sa_solution**
 
 There are two version of the solution. 
 1. A simple cURL-based example in `answer.sh`, and...
