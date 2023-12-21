@@ -2,7 +2,7 @@
 
 **The code for the solutions can be found at: https://github.com/ThePhen/writercom_sa_solution**
 
-There are two version of the solution. 
+There are two versions of the solution. 
 1. A simple cURL-based example in `answer.sh`, and...
 2. A more compilcated solution in `nodejs_solution/index.js` which demonstrates using the output from one Writer API as input into a subsequent API call. Here's the gist of getting it running:
 ```sh
