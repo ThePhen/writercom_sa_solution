@@ -2,14 +2,23 @@
 
 **The code for the solutions can be found at: https://github.com/ThePhen/writercom_sa_solution**
 
-There are two versions of the solution. 
-1. A simple cURL-based example in `answer.sh`, and...
-2. A more compilcated solution in `nodejs_solution/index.js` which demonstrates using the output from one Writer API as input into a subsequent API call. Here's the gist of getting it running:
+There are three versions of the solution. 
+1. A simple cURL-based example in `answer.sh`.
+2. A more complicated solution can be found in `nodejs_solution/index.js` which demonstrates using the output from one Writer API as input into a subsequent API call. Here's the gist of getting it running:
 ```sh
 cd nodejs_solution
+export WRITER_API_TOKEN=*****
 npm start
 ```
-And here's an example of typical output from the Node.JS solution:
+3. A similar solution as the NodeJS version but implemented in Python can be found in `python_solution.solution.py`. Here's the gist of getting it running:
+```sh
+cd python_solution
+pip install -r requirements.txt
+export WRITER_API_TOKEN=*****
+python3 solution.py
+```
+
+And here's an example of typical output from the Node.JS or Python solution:
 ```
 Original input headline:
 
